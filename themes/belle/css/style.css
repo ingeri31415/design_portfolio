@@ -7,7 +7,10 @@
 
 ol, ul {
     padding-left: 1.5em;
+    
 }
+
+.nav li:hover {background-color: purple;}
 
 .hidden {
     display: none !important;
