@@ -1,0 +1,23 @@
+
+.logo {
+    margin-left:10px;
+    margin-right:10px;
+    position: relative;
+    float: left;
+}
+
+.title {
+    font-family: 'Poiret One', sans-serif;
+    position: relative;
+    
+}
+
+.header{
+    border-bottom: 1px solid $accent-color;
+    
+    a:hover{
+        background-color: $accent-color;
+        padding:5px;
+    }
+}
+
