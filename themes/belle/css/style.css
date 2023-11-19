@@ -367,6 +367,64 @@ pre code {
   border-top: 1px solid rgb(205, 92, 92);
 }
 
+.landingpage {
+  display: grid;
+  gap: 1rem 2rem;
+  margin: 2rem;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.wide {
+  grid-column: span 2;
+}
+
+.wider {
+  grid-column: span 3;
+}
+
+.tech {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.tech-menu {
+  width: 30%;
+}
+
+.tech-article {
+  width: 70%;
+}
+
+@media (max-width: 767px) {
+  .landingpage h1 {
+    grid-column: span 1;
+    justify-content: center;
+    grid-template-columns: [first] 40px;
+  }
+  .box {
+    grid-column: span 1;
+    justify-content: center;
+  }
+  .landingpage {
+    margin: auto;
+  }
+  .tech-menu {
+    visibility: hidden;
+  }
+  .tech-article {
+    width: auto;
+  }
+}
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6502,7 +6560,6 @@ body {
 }
 
 .main {
-  padding-left: 20vw;
-  padding-right: 20vw;
+  margin: 2rem;
   font-size: 1em;
 }
