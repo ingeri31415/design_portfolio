@@ -9,8 +9,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass belle/scss/style.scss belle/css/style.css --no-source-map",
-    "style-min": "sass belle/scss/style.scss belle/css/style.min.css --no-source-map --style compressed"
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass belle/scss/style-dark.scss belle/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass belle/scss/style-dark.scss belle/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass belle/scss/style.scss belle/css/style.css --no-source-map",
+    "style-light-min": "sass belle/scss/style.scss belle/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

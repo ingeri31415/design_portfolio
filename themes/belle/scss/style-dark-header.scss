@@ -13,17 +13,18 @@
 }
 
 .header{
-    background-color: $light-header-background;
-    border-bottom: 1px solid $light-accent-color;
+    color: $light-font-color;
+    background-color: $dark-header-background;
+    border-bottom: 1px solid $dark-accent-color;
     overflow: auto;
     
     a:hover{
-        background-color: $light-accent-color;
+        background-color: $dark-accent-color;
         padding:5px;
     }
 
     a {
-        color:$dark-font-color;
+        color: $light-font-color;
     }
 }
 

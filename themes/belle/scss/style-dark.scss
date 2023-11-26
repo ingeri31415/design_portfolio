@@ -3,7 +3,7 @@
 
 @import 'blockquotes';
 @import 'code';
-@import 'header';
+@import 'style-dark-header';
 @import 'footer';
 @import 'technology';
 
@@ -28,12 +28,12 @@ h1 {
     font-size: 3em;
 }
 
-* {
-    color: $dark-font-color;
+body {
+    background-color: $dark-background-color;
 }
 
-body {
-    background-color: $light-background-color;
+* {
+    color: $light-font-color;
 }
 
 .main {
@@ -41,7 +41,3 @@ body {
     font-size: 1em;
 }
 
-.title{
-    margin-left: 10px;
-    
-}
