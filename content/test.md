@@ -27,3 +27,8 @@ torn det med hast. Hujedamej, sånt barn han var, tror inte också ni, att den s
  soppskål har vill ej ha gossar i?
 </p>
 
+![move](image/movement.jpg?w=150&h=150&f=negate)
+![move](image/movement.jpg?w=150&h=150&f=colorize,60,-20,-20,0)
+![move](image/movement.jpg?w=150&h=150&convolve=draw)
+
+![move](image/movement.jpg?w=150&h=150&q=10&save-as=png)

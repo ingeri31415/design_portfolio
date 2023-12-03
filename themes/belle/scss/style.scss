@@ -6,6 +6,8 @@
 @import 'header';
 @import 'footer';
 @import 'technology';
+@import 'video';
+
 
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
@@ -41,7 +43,12 @@ body {
     font-size: 1em;
 }
 
-.title{
+.title {
     margin-left: 10px;
     
+}
+
+.report {
+    max-width: 800px;
+    margin: 0 auto;
 }

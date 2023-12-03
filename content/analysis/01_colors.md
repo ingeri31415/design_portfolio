@@ -1,6 +1,12 @@
+---
+Title: Style on Swedens best travel websites
+Description: This is my report about colours.
+Template: report
+---
+
 Style on Swedens best travel websites
 =======================
-This rapport is covering a small study on the colours and fonts of Swedens best travel websites. The chosen websites are skyscraper.se, momondo.se and flygresor.se. 
+This rapport is covering a small study on the colours and fonts of Swedens best travel websites. The chosen websites are skyscanner.se, momondo.se and flygresor.se. 
 
 Urval
 -----------------------
@@ -15,7 +21,7 @@ When I had the websites I examined them mostly with inspect from the web browser
 Resultat
 -----------------------
 
-skyscraper 
+skyscanner
 
 "Skyscanner Relative",-apple-system,BlinkMacSystemFont,"Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 
@@ -70,9 +76,9 @@ Momondo is a little tricky becuase they are using a lot of gradients. the purple
 Analys
 -----------------------
 
-My opinion or reasonging of the colours chosen by these websites is that I believe they all have to do with the colours of the sky where two of them flygresor.se and skyscraper.se used a lot of blue tones. I also think that it could be possible that momondo.se has that too but the colours of sunsets and sunrises instead of the blue. All of them have logically incorporated the colours of their logos. It could be debatable whether flygresor.se has done that since the shades of the blue are a little bit different but at least they have incorporated a lot of blue. It is also possible that the with the use of yellow have thought of the sun but on the other hand is could also be the colours of the Swedish flag that they have used. There was also some use of gradients (flygresor.se and momondo.se) which also is a sign of the natural representation of colours in the sky. 
+My opinion or reasonging of the colours chosen by these websites is that I believe they all have to do with the colours of the sky where two of them flygresor.se and skyscanner.se used a lot of blue tones. I also think that it could be possible that momondo.se has that too but the colours of sunsets and sunrises instead of the blue. All of them have logically incorporated the colours of their logos. It could be debatable whether flygresor.se has done that since the shades of the blue are a little bit different but at least they have incorporated a lot of blue. It is also possible that the with the use of yellow have thought of the sun but on the other hand is could also be the colours of the Swedish flag that they have used. There was also some use of gradients (flygresor.se and momondo.se) which also is a sign of the natural representation of colours in the sky. 
 
-Flygresor.se and skyskraper.se does have this blue on white theme which I think look serious and they mean business which is contrasted with the fun beautiful pictures of where you can travel. Momondo.se feels more fun and like they target people who stay up late and impromptu books a trip. When it comes to fonts skyscraper seems to be the only one who has created their own font, flygresor has only open-sans and momondo has cerapro-regular and CeraPro-Bold. It seems that they different styles when it comes to fonts. Flygresor.se seems to have kept it simple whereas the other two have had more thought gone into it where one has even taken the effort to create their own font.  
+Flygresor.se and skyskraper.se does have this blue on white theme which I think look serious and they mean business which is contrasted with the fun beautiful pictures of where you can travel. Momondo.se feels more fun and like they target people who stay up late and impromptu books a trip. When it comes to fonts skyscanner seems to be the only one who has created their own font, flygresor has only open-sans and momondo has cerapro-regular and CeraPro-Bold. It seems that they different styles when it comes to fonts. Flygresor.se seems to have kept it simple whereas the other two have had more thought gone into it where one has even taken the effort to create their own font.  
 
 To summarize: From this study in colours on travel websites which is very small but the conclusion is that a common factor is to have the colours related to the sky which is logical since they offer flights to different places but also keeping it on theme with their logo. When it comes to fonts they all seem to have different approaches. 
 
