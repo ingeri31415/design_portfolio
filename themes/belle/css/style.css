@@ -419,6 +419,10 @@ pre code {
   font-size: 20px;
 }
 
+.iframe {
+  width: 80%;
+}
+
 @media (max-width: 767px) {
   .landingpage h1 {
     grid-column: span 1;
