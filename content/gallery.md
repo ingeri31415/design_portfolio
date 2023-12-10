@@ -68,7 +68,7 @@ Gallery
 </div>
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/jghDDkELizk" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/jghDDkELizk" title="My webtec project video" frameborder="0" allowfullscreen></iframe>
 </div>
 
 

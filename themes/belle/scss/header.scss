@@ -7,13 +7,13 @@
 }
 
 .title {
-    font-family: 'Poiret One', sans-serif;
+    font-family: 'Cursive', sans-serif;
     position: relative;
     color: #0083E0;
+    text-align: center;
 }
 
-.header{
-    background-color: $light-header-background;
+.header {
     border-bottom: 1px solid $light-accent-color;
     overflow: auto;
     
@@ -25,6 +25,25 @@
     a {
         color:$dark-font-color;
     }
+
+    .nav .links {
+        
+        float: right;
+    }
+
+    .nav .name {
+        
+        float: left;
+        font-size: 16;
+    }
+
+    .nav {
+        
+        position: relative;
+        border: 1px solid #fff;
+        
+    }
+
 }
 
 .site-header{

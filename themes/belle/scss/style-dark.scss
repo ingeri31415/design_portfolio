@@ -22,10 +22,19 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poiret One', sans-serif;
+    text-shadow: 2px 2px 4px #ffc0fb;
 }
 
 h1 {
     font-size: 3em;
+}
+
+.title h1{
+    font-size: 4em;
+    font-family: cursive;
+    font-weight: 900;
+    font-style: none;
+
 }
 
 body {
@@ -41,3 +50,7 @@ body {
     font-size: 1em;
 }
 
+.report {
+    max-width: 800px;
+    margin: 0 auto;
+}

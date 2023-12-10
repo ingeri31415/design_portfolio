@@ -1,6 +1,7 @@
 ---
 Title: Home
 Description: This is our index page.
+Template: report
 ---
 
 Home page
@@ -10,4 +11,5 @@ The source for this page is in content/index.md.
 
 Hi, I'm Ingrid welcome to my homepage.
 
-![cake](image/cake1-unsplash.jpg?w=150)
+
+![Ingrid](image/picture_of_me.png?w=150)

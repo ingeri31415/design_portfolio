@@ -1,10 +1,26 @@
 <div class="header" role="banner">
-
+    
+    <div class="nav">
+        <div class="name">
+            <ul>
+                <li>{{ pages["_meta"].meta.Name }}</li>
+            </ul>
+        </div>
+        <div class=links id="nav" role="navigation" tabindex="-1">
+            <ul>
+                {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
+                    <li{% if page.id==current_page.id %} class="active" {% endif %}>
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
     <div class="site-header">
         {% if pages["_meta"].meta.logo %}
         <div class="logo">
             <a href="{{ base_url }}">
-                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" width="80" alt="picture of me" />
+                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" width="80" height="80" alt="picture of me" />
             </a>
         </div>
         {% endif %}
@@ -16,20 +32,10 @@
         </div>
 
         <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
-            tabindex="1">
+            >
             <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
             <span class="sr-only">Toggle Menu</span>
         </a>
     </div>
-    <div class="nav">
-        <div id="nav" role="navigation" tabindex="-1">
-            <ul>
-                {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
-                    <li{% if page.id==current_page.id %} class="active" {% endif %}>
-                        <a href="{{ page.url }}">{{ page.title }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
+
 </div>

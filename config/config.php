@@ -18,7 +18,6 @@ if (isset($_GET["action"])) {
         } else {
             $_SESSION["theme"] = "dark";
         }
-
         $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
         $url = preg_replace("/index.php\//", "", $url);
         header("Location: $url");

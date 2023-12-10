@@ -351,23 +351,34 @@ pre code {
 }
 
 .title {
-  font-family: "Poiret One", sans-serif;
+  font-family: "Cursive", sans-serif;
   position: relative;
   color: #0083E0;
+  text-align: center;
 }
 
 .header {
   color: #fff;
-  background-color: #1200E1;
-  border-bottom: 1px solid #5500E0;
+  border-bottom: 1px solid pink;
   overflow: auto;
 }
 .header a:hover {
-  background-color: #5500E0;
+  background-color: pink;
   padding: 5px;
 }
 .header a {
   color: #fff;
+}
+.header .nav .links {
+  float: right;
+}
+.header .nav .name {
+  float: left;
+  font-size: 16;
+}
+.header .nav {
+  position: relative;
+  border: 1px solid #333;
 }
 
 .site-header {
@@ -375,7 +386,7 @@ pre code {
 }
 
 .footer {
-  border-top: 1px solid #A600E0;
+  border-top: 1px solid pink;
 }
 
 .landingpage {
@@ -6564,14 +6575,22 @@ readers do not read off random characters that represent icons */
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poiret One", sans-serif;
+  text-shadow: 2px 2px 4px pink;
 }
 
 h1 {
   font-size: 3em;
 }
 
+.title h1 {
+  font-size: 4em;
+  font-family: cursive;
+  font-weight: 900;
+  font-style: none;
+}
+
 body {
-  background-color: #000;
+  background-color: #333;
 }
 
 * {
@@ -6581,4 +6600,9 @@ body {
 .main {
   margin: 2rem;
   font-size: 1em;
+}
+
+.report {
+  max-width: 800px;
+  margin: 0 auto;
 }
